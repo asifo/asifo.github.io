@@ -1,0 +1,219 @@
+header nav{
+	background-color: black;
+	width: 960px;
+	margin: auto;
+	padding: 30px;
+	display: block;
+}
+
+header a{
+	text-decoration: none;
+	font: arial;
+	font-size: 15px;
+	color:#cccccc;
+	margin:10px;
+	font-weight: 500;
+}
+
+header	a:hover{
+	color: #96DDFC;
+}
+
+#main{
+	display: block;
+	width: 960px;
+	margin: auto;
+	clear: both;
+	color: #cccccc;
+	font-family: helvetica, arial;
+}
+
+
+
+#logo{
+	float: left;
+}
+
+#social-media{
+	float: right;
+}
+
+#blurb {
+  border-top: 1px solid #CCCCCC;
+  border-left: 1px solid #CCCCCC;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  padding: 15px;
+  overflow: auto; 
+  font-size: 18px;
+  line-height: 22px;
+}
+
+#blurb p {
+  float: left;
+  width: 700px;
+  color: black;
+}
+
+#blurb img {
+  float: right;
+}
+
+#home-boxes{
+	width: 960px;
+	margin: auto;
+	padding-left: 70px;
+}
+
+.homebox{
+	float: left;
+	width: 290px;
+	margin: auto;
+
+	
+ }
+
+.homebox img{
+	border: 6px solid #E2E2E2;
+}
+
+
+.homebox a{
+	display: block;
+	text-align: left;
+	color: #1FA2E1;
+	text-decoration: none;
+	font-weight: bold;
+	}
+
+.homebox a:hover{
+	text-decoration: underline;
+}
+
+footer{
+	width: 960px;
+	background-color: black;
+	color: #cccccc;
+	margin: auto;
+	overflow: hidden;
+}
+
+.container{
+	background-color: black;
+	float: left;
+	font-size: 13px;
+}
+
+
+.container ul{
+	list-style-type: none;
+	text-align: left;
+	padding: 10px;
+	color: #333333;
+	text-decoration: none;
+}
+
+.container li a{
+	color: #333333;
+	text-decoration: none;
+	display: block;
+	padding: 5px;
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+}
+
+.blogroll {
+  width: 210px;
+  float: left;
+  padding: 10px;
+ }
+
+ 
+
+.textwidget {
+  width: 400px;
+  float: left;
+  margin: 0 30px;
+}
+
+.textwidget p {
+  margin-top: 10px;
+  color: #333333;
+}
+
+#copyright,
+#companybottom {
+overflow: auto;
+  margin: 50px 0;
+  font-size: 13px;
+  color: #333333;
+
+}
+
+#copyright {
+  clear: both;
+  float: left;
+  padding: 10px;
+  font-size: 13px;
+  color: #333333;
+}
+
+#companybottom {
+  float: right;
+  width: 290px;
+}
+
+#companybottom a {
+  border: none;
+  display: inline;
+  color: #1FA2E1;
+  text-decoration: none;
+}
+
+#social-media ul {
+	float: right;
+	margin: 50px 0 20px;
+}
+
+#social-media li {
+	float: left;
+}
+
+#social-media ul li a {
+	 display:block;
+	 width:60px;
+	 height:60px;
+	 text-indent: 100%;
+	 overflow: hidden;
+}
+
+#social-media ul li.linkedIn {
+	background:url(../images/socialNav.png) 0px 64px;
+}
+#social-media ul li.twitter {
+	background:url(../images/socialNav.png) -60px 64px; 
+}
+
+#social-media ul li.facebook {
+	background:url(../images/socialNav.png) -120px 64px; 
+}
+
+#social-media ul li.rss {
+	background:url(../images/socialNav.png) -180px 64px; 
+}
+
+#social-media ul li.linkedIn:hover {
+	background:url(../images/socialNav.png) 0px 0px; 
+}
+
+#social-media ul li.twitter:hover {
+	background:url(../images/socialNav.png) -60px 0px; 
+}
+
+#social-media ul li.facebook:hover {
+	background:url(../images/socialNav.png) -120px 0px; 
+}
+
+#social-media ul li.rss:hover {
+	background:url(../images/socialNav.png) -180px 0px; 
+}
