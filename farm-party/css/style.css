@@ -1,0 +1,37 @@
+#grass{
+	top:77%; 
+    width: 110%;
+    height: 20%;
+    margin-left: 0;
+    margin-bottom: 0;
+    background-color: green;
+    position: fixed;
+}
+
+body{
+	background: url("../images/cloud_2.gif");
+
+}
+
+h1{
+	font-family: 'Sigmar One', cursive;
+	text-align: center;
+}
+
+#horse{
+	position: fixed;
+	bottom: 168px;
+
+}
+
+#lamb{
+	position: fixed;
+	bottom: 168px;
+	right: 168px;
+}
+
+#cow{
+	position: fixed;
+	bottom: 68px;
+	right: 268px;
+}
